@@ -4,9 +4,10 @@ Books API for CRUD operations
 # Requirements
 
  - Interpreter = Python 3.7  
- -  Frameworks = Django, Django Rest Frame  Work 
+ - Frameworks = Django, Django Rest Frame  Work 
  - Libraries = django, djngorestfamework,django-mysql,requests 
- - Database = MySQL   IDE = Pydev
+ - Database = MySQL
+ - IDE = Pydev
 
   
 # Code Setup
