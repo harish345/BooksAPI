@@ -26,7 +26,7 @@ Books API for CRUD operations
 
  - Install MySQL 
  - Create a schema booksdb    
- - In settings.py change the database username and password your db credentials.
+ - In settings.py change the database username and password to your db credentials.
 
    
  # Run Configurations
