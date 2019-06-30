@@ -34,29 +34,29 @@ Books API for CRUD operations
     manage.py migrate 
 
   
-  Once changes are migrated, run the application.
+  Once changes are migrated, run the application in local (default port 8000)
   
   
   # API
   
   Get book details from Ice and Fire API
 
-      GET: api/external-books?name=:bookname
+      GET: http://localhost:<port>/api/external-books?name=:bookname
 
   
   Get a particular book details from DB by passing id
 
-      GET : api/v1/books/:id
+      GET : http://localhost:<port>/api/v1/books/:id
 
   
   Get list of all books from DB
 
-      GET : api/v1/books
+      GET : http://localhost:<port>/api/v1/books
 
   
   Create a book
 
-      POST : api/v1/books
+      POST : http://localhost:<port>/api/v1/books
 
   Sample Data format:
 
@@ -75,7 +75,7 @@ Books API for CRUD operations
   
   Update a book of a particular id
 
-      PATCH: pi/v1/books/:id
+      PATCH: http://localhost:<port>/api/v1/books/:id
 
     
   Any following form data to be used:
@@ -92,4 +92,4 @@ Books API for CRUD operations
         
   Delete a book of a particular id:
 
-      DELETE: pi/v1/books/:id
+      DELETE: http://localhost:<port>/api/v1/books/:id
