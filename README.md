@@ -7,7 +7,7 @@ Books API for CRUD operations
  - Frameworks = Django, Django Rest Frame  Work 
  - Libraries = django, djngorestfamework,django-mysql,requests 
  - Database = MySQL
- - IDE = Pydev
+ - IDE = Pydev (Eclipse)
 
   
 # Code Setup
