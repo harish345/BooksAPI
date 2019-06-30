@@ -4,8 +4,8 @@ Books API for CRUD operations
 # Requirements
 
  - Interpreter = Python 3.7  
- - Frameworks = Django, Django Rest Frame  Work 
- - Libraries = django, djngorestfamework,django-mysql,requests 
+ - Frameworks = Django(2.2.2), Django Rest Frame Work(3.9.4)
+ - Libraries = django-mysql(3.2),requests(2.22) , coverage(4.5.3)
  - Database = MySQL
  - IDE = Pydev (Eclipse)
 
@@ -17,6 +17,7 @@ Books API for CRUD operations
      pip install djangorestramework
      pip install django-mysql
      pip install requests
+     pip install coverage
 
   Configure Eclipse with Pydev.
   Clone the code and import into Pydev
