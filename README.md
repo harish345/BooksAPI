@@ -14,7 +14,7 @@ Books API for CRUD operations
   Install above mentioned libraries as below i.e
 
      pip install django
-     pip installdjangorestramework
+     pip install djangorestramework
      pip install django-mysql
      pip install requests
 
